@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My visualization application</title>
+    <p>Hunter Hersko-Fugitt</p>
+    <!-- The following line references an external css file -->
+    <!-- It defines style rules for your page, and elements in your page -->
+    <link href="css/visualization1.css" rel="stylesheet">
+</head>
+<body>
+    Main content can be added here. 
+    <svg width = "1000" height = "600">
+        <line x1="50" y1="100" x2="780" y2="100" stroke="gray" stroke-width="2" />
+        <line x1="50" y1="200" x2="780" y2="200" stroke="gray" stroke-width="2" />
+        <text x="0" y="100" fill="red">2017</text>
+        <text x="0" y="200" fill="red">2016</text>
+        <!--Minimum radius is 5 for visibility and cx value is 50 + 2x date in pixels-->
+        <!--2015 circles-->
+        <circle cx="531" cy="100" r="125" fill=#081d58 opacity = ".6" />
+        <circle cx="373" cy="100" r="5" fill=#c7e9b4 opacity = ".6" />
+        <circle cx="310" cy="100" r="5" fill=#c7e9b4 opacity = ".6" />
+        <circle cx="224" cy="100" r="5" fill=#c7e9b4 opacity = ".6" />
+        <circle cx="184" cy="100" r="5" fill=#c7e9b4 opacity = ".6" />
+        <circle cx="168" cy="100" r="5" fill=#c7e9b4 opacity = ".6" />
+        <circle cx="90" cy="100" r="5" fill=#c7e9b4 opacity = ".6" />
+        <circle cx="283" cy="100" r="5" fill=#41b6c4 opacity = ".6" />
+        <circle cx="128" cy="100" r="5" fill=#41b6c4 opacity = ".6" />
+        <!--2016 circles-->
+        <circle cx="501" cy="200" r="10.3" fill=#41b6c4 opacity = ".6" />
+        <circle cx="615" cy="200" r="10.3" fill=#081d58  opacity = ".6" />
+        <circle cx="51" cy="200" r="5" fill=#ffffd9  opacity = ".9" />
+        <circle cx="250" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+        <circle cx="282" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+        <circle cx="264" cy="200" r="5" fill=#41b6c4  opacity = ".6" />
+        <circle cx="355" cy="200" r="5" fill=#ffffd9  opacity = ".9" />
+        <circle cx="188" cy="200" r="5" fill=#41b6c4  opacity = ".6" />
+        <circle cx="218" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+        <circle cx="310" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+        <circle cx="478" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+        <circle cx="212" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+        <circle cx="340" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+        <circle cx="156" cy="200" r="5" fill=#c7e9b4  opacity = ".6" />
+
+        
+
+            <!--winter storms gray, flooding blue #41b6c4 , severe storms green c7e9b4, drought and wildfire yellow #ffffd9, tropical cyclones black #081d58-->
+    </svg>
+    <!-- Load external JS files -->
+    <!-- This is where you will do most of the 'work' for your applications -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
